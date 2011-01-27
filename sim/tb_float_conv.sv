@@ -60,8 +60,8 @@ module tb_float_conv;
 	 if (B != A) 
 	   begin
 	      err++ ;
-	     // $display("Ref:signe:%b mantisse:%b exposant:%b Result:signe:%b mantisse:%b exposant:%b",A.`SIGN,A.`MANT,A.`EXP ,B.`SIGN,B.`MANT,B.`EXP) ;
-	     // $stop;
+	      $display("Ref:signe:%b mantisse:%b exposant:%b Result:signe:%b mantisse:%b exposant:%b",A.`SIGN,A.`MANT,A.`EXP ,B.`SIGN,B.`MANT,B.`EXP) ;
+	      $stop;
 	      
 	   end
       end

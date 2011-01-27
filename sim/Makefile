@@ -107,6 +107,7 @@ clean:
 	@rm -rf .tb_float*
 	@rm -rf .floatpack*
 	@rm -rf work 
+	@rm -f *~
 	@rm -rf transcript
 	@rm -rf vsim.wlf
 	@rm -rf wl*
