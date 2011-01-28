@@ -54,7 +54,7 @@ module tb_float_mult;
       $fdisplay(of,"===Test Multiplication===");
       for(i=0;i<Ntest;i++)begin
 
-	 $display("--------------------------------------",i);
+	// $display("--------------------------------------",i);
 	 
 	 #10
 	   A.`SIGN=$random() ;
@@ -71,7 +71,7 @@ module tb_float_mult;
 	 B.`SIGN=$random() ;
 	 B.`EXP=$random()  ;
 	 B.`MANT=$random() ;
-	 if(B.`EXP == 0) A.`MANT = 0 ;
+	 if(B.`EXP == 0) B.`MANT = 0 ;
 	 if(B.`EXP == ((2**`TB_EXP_SIZE)-1)) B.`EXP = (2**`TB_EXP_SIZE)-2 ;
          if((i<3000) && (i>1000)) begin
 	    B.`SIGN=$random() ;
@@ -97,8 +97,8 @@ module tb_float_mult;
 		   //$fdisplay(of,"%e %e %e %e s:%x m:%x e:%x",rA,rB,rC,rD,C.`SIGN,C.`MANT,C.`EXP) ;
 		   
 		   $display("Dépassement maximal positif mal traité") ; 
-		   $display("%b + %b = %b --- %b",A,B,C,D);
-		   $display("%e + %e = %e --- %e",rA,rB,rC,rD);
+		   $display("%b * %b = %b --- %b",A,B,C,D);
+		   $display("%e * %e = %e --- %e",rA,rB,rC,rD);
 		   $stop;
 		   
 		end

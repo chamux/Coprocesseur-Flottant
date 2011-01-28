@@ -9,13 +9,15 @@ package float_pack;
 			   logic unsigned [Nm-1:0] m;
 			   } float; 
 
-typedef struct packed { logic unsigned s;
-			logic unsigned [7:0] e;
-			logic unsigned [22:0] m;
-			} float_ieee;
+   typedef struct packed { logic unsigned s;
+			   logic unsigned [7:0] e;
+			   logic unsigned [22:0] m;
+			   } float_ieee;
 
 
-//*******************************************************//
+/*****************************************************/
+/*                    TESTBENCH
+ /*****************************************************/
 
 
 function float_ieee real2float_ieee(input shortreal nb);
@@ -67,66 +69,124 @@ function shortreal float2real(input float nb);
    float2real=float_ieee2real(float2float_ieee(nb));
 endfunction; // float
 
-//*********************************************************//
+
+
+
+
+
+
+/*****************************************************/
+/*                    MULT
+ /*****************************************************/
 
 function float float_mul(input float a, input float b);
 
-   logic [Ne:0] sum_exp;
-   logic [2*Nm+1:0] mult_sig;
-   logic [5:0] 	    first_one;
+   logic signed [Ne+1:0] sum_exp;
+   logic [2*Nm+1:0] 	 mult_sig;
+   logic [5:0] 		 first_one;
 
    first_one = 2*Nm + 2;
    
    float_mul.s=a.s^b.s;
    
+   sum_exp=a.e + b.e - De;
    
-   sum_exp=a.e+b.e;
-   $display("sum_exp %b",sum_exp);
-   
-   //    if( sum_exp >= 2**Ne-1)
-   //      begin
-   // 	$display("max reached");
-   
-   // 	float_mul.e = 2**Ne-2;
-   // 	float_mul.m = 2**Nm-1;
-   //      end
-   //    else
-   //      begin
-
    mult_sig = {a.e!=0,a.m}*{b.e!=0,b.m};
-   $display("mult_sig %b",mult_sig);	
    
    while(~mult_sig[first_one - 1] && first_one > 0)
      first_one = first_one - 1;
 
-   $display("fo %b", first_one);
-   
+   sum_exp =  sum_exp + first_one - (2*Nm + 2) + 1;
 
-   if(sum_exp + first_one - (Nm + 1) < 2**Ne-1 && first_one>0)
+   if(sum_exp > 0 && sum_exp < (2**Ne-1) && first_one>0)
      begin
-	float_mul.e = sum_exp + first_one + sum_exp - (Nm + 1);
-	float_mul.m = mult_sig>>(first_one - 2 - Nm);
+	float_mul.e = sum_exp;
+	float_mul.m = mult_sig>>(first_one-1 - Nm);
      end   
    else
      begin
-	if(first_one==0)
+	if(first_one==0 || sum_exp <=0)
 	  begin
-	     $display("zero");
 	     float_mul.e = 0;
 	     float_mul.m = 0;
 	  end
 	else
 	  begin
-	     $display("max reached2");
 	     float_mul.e = 2**Ne-2;
 	     float_mul.m = 2**Nm-1;
-	  end // else: !if(first_one==0)
-     end
-   //   end
+	  end
+     end // else: !if(sum_exp > 0 && sum_exp < (2**Ne-1) && first_one>0)
 endfunction; // float
 
+
+
+
+
+
+/*****************************************************/
+/*                    DIVISION
+ /*****************************************************/
+
 function float float_div(input float a, input float b);
+   
+   logic signed [Ne+1:0] expo;
+   logic 		 unsigned [2*Nm+1:0]sig;
+   logic 		 unsigned [5:0]first_one;
+
+   first_one = 2*Nm + 2;
+   
+   float_div.s=a.s^b.s;
+
+   
+   if(b.e==0)//NAN      XXX
+     begin
+	float_div.e=2**Ne-1;
+	float_div.m=0;
+	
+     end
+   else
+     begin
+	expo=a.e - b.e+De;
+
+	sig = {a.e!=0,a.m,{Nm{1'b0}}}/{{Nm{1'b0}},b.e!=0,b.m};
+
+	while(~sig[first_one - 1] && first_one > 0)
+	  first_one = first_one - 1;
+
+	expo =  expo -Nm+ first_one-1;
+	
+	if(expo > 0 && expo < (2**Ne-1) && first_one>0)
+	  begin
+	     float_div.e = expo;
+	     if(first_one-1 > Nm)
+	       float_div.m = sig>>(first_one-1 - Nm);
+	     else
+	       float_div.m = sig<<-(first_one-1 - Nm);
+	  end   
+	else
+	  begin
+	     if(first_one==0 || expo <=0)
+	       begin
+		  float_div.e = 0;
+		  float_div.m = 0;
+	       end
+	     else
+	       begin
+		  float_div.e = 2**Ne-2;
+		  float_div.m = 2**Nm-1;
+	       end 
+	  end
+     end
 endfunction; // float
+
+
+
+
+
+
+/*****************************************************/
+/*                    ADD_SUB
+ /*****************************************************/
 
 function float float_add_sub(input bit choice, input float a, input float b);   //choice : 0 ----> add      1 ----> sub
    logic unsigned [Ne-1:0] expo_min, expo_max;
@@ -203,8 +263,8 @@ function float float_add_sub(input bit choice, input float a, input float b);   
 	  end
 	else
 	  begin
-	      float_add_sub.e = 0;
-	      float_add_sub.m = 0;
+	     float_add_sub.e = 0;
+	     float_add_sub.m = 0;
 	  end
 
 	float_add_sub.s=!sign_min;
