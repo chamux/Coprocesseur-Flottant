@@ -156,6 +156,7 @@ module tb_float_add;
 			$display("expo mauvais");
 			$fdisplay(of,"%e %e %e %e s:%x m:%x e:%x",rA,rB,rC,rD,C.`SIGN,C.`MANT,C.`EXP) ;
 			$display("%b + %b = %b --- %b",A,B,C,D);
+			$display("%e + %e = %e --- %e",rA,rB,rC,rD);
 			//$stop;
 		     end 
 		   else // Le cas normal : calcul de l'erreur max et de l'erreur moyenne

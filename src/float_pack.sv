@@ -72,39 +72,57 @@ endfunction; // float
 function float float_mul(input float a, input float b);
 
    logic [Ne:0] sum_exp;
-   logic [2*Nm+1:0] mult_test;
+   logic [2*Nm+1:0] mult_sig;
    logic [5:0] 	    first_one;
 
    first_one = 2*Nm + 2;
    
    float_mul.s=a.s^b.s;
-   sum_exp=a.e+b.e;
    
-   if( sum_exp >= 2**Ne-1)
+   
+   sum_exp=a.e+b.e;
+   $display("sum_exp %b",sum_exp);
+   
+   //    if( sum_exp >= 2**Ne-1)
+   //      begin
+   // 	$display("max reached");
+   
+   // 	float_mul.e = 2**Ne-2;
+   // 	float_mul.m = 2**Nm-1;
+   //      end
+   //    else
+   //      begin
+
+   mult_sig = {a.e!=0,a.m}*{b.e!=0,b.m};
+   $display("mult_sig %b",mult_sig);	
+   
+   while(~mult_sig[first_one - 1] && first_one > 0)
+     first_one = first_one - 1;
+
+   $display("fo %b", first_one);
+   
+
+   if(sum_exp + first_one - (Nm + 1) < 2**Ne-1 && first_one>0)
      begin
-	float_mul.e = 2**Ne-2;
-	float_mul.m = 2**Nm-1;
-     end
+	float_mul.e = sum_exp + first_one + sum_exp - (Nm + 1);
+	float_mul.m = mult_sig>>(first_one - 2 - Nm);
+     end   
    else
      begin
-	
-	mult_test = {1'b1,a.m}*{1'b1,b.m};
-	
-	
-	while(~mult_test[first_one - 1] && first_one > 0)
-	  first_one = first_one - 1;
-
-	if(sum_exp + first_one - (Nm + 1) < 2**Ne-1)
+	if(first_one==0)
 	  begin
-	     float_mul.e = sum_exp + first_one + sum_exp - (Nm + 1);
-	     float_mul.m = mult_test>>(first_one - 2 - Nm);
-	  end   
+	     $display("zero");
+	     float_mul.e = 0;
+	     float_mul.m = 0;
+	  end
 	else
 	  begin
+	     $display("max reached2");
 	     float_mul.e = 2**Ne-2;
 	     float_mul.m = 2**Nm-1;
-	  end
+	  end // else: !if(first_one==0)
      end
+   //   end
 endfunction; // float
 
 function float float_div(input float a, input float b);
