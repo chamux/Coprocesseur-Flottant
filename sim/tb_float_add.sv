@@ -2,7 +2,7 @@ import float_pack::*;
 import tb_float_pack::*;
 module tb_float_add;
    // Les fonctions de conversion de référence encryptées pour éviter la recopie trop simple héhé...
-   parameter Ntest=10000;
+   parameter Ntest=1000000;
    tb_float A;
    tb_float B;
    tb_float C;
@@ -54,10 +54,10 @@ module tb_float_add;
       min_neg_val = tb_float2real(min_neg_float_val) ;
       
       $fdisplay(of,"===Test addition===");
-      
+
       for(i=0;i<Ntest;i++)
 	begin
-	   $display("--------------------------------------",i);
+	   //$display("--------------------------------------",i);
 
 	   
 	   #10
@@ -75,7 +75,7 @@ module tb_float_add;
 	   B.`SIGN=$random() ;
 	   B.`EXP=$random()  ;
 	   B.`MANT=$random() ;
-	   if(B.`EXP == 0) A.`MANT = 0 ;
+	   if(B.`EXP == 0) B.`MANT = 0 ; // ERROR A->B
 	   if(B.`EXP == ((2**$size(A.`EXP))-1)) B.`EXP = (2**$size(A.`EXP))-2 ;
            if((i<3000) && (i>1000)) begin
 	      B.`SIGN=$random() ;
@@ -98,11 +98,12 @@ module tb_float_add;
 		if ((rC != max_pos_val) && (C != pos_inf_val))  
 		  begin
 		     max_sat_err++ ;
+		     $display("--------------------------------------",i);
 		     $fdisplay(of,"Dépassement maximal positif mal traité") ; 
 		     $fdisplay(of,"%e %e %e %e s:%x m:%x e:%x",rA,rB,rC,rD,C.`SIGN,C.`MANT,C.`EXP) ;
-		     $display("Dépassement maximal positif mal traité") ; 
-		     $display("%e %e %e %e s:%x m:%x e:%x",rA,rB,rC,rD,C.`SIGN,C.`MANT,C.`EXP) ;
-		     $stop;
+		     $display("Dépassement maximal positif mal traité") ;
+		     $display("%b + %b = %b --- %b",A,B,C,D);
+		     //$stop;
 		  end
 	     end
 	   else
@@ -112,9 +113,13 @@ module tb_float_add;
 		  if ((rC != max_neg_val)&& (C != neg_inf_val)) 
 		    begin
 		       max_sat_err++ ;
-		       $fdisplay(of,"Dépassement maximal negatif mal traité") ; 
+		       $display("--------------------------------------",i);
+		       $fdisplay(of,"Dépassement maximal negatif mal traité") ;
+		       $display("%b + %b = %b --- %b",A,B,C,D); 
 		       $fdisplay(of,"%e %e %e %e s:%x m:%x e:%x",rA,rB,rC,rD,C.`SIGN,C.`MANT,C.`EXP) ;
-		       $stop;
+		       $display("Dépassement maximal negatif mal traité") ;
+		       $display("%b + %b = %b --- %b",A,B,C,D);
+		       //$stop;
 		    end
 	       end
 	     else
@@ -124,11 +129,13 @@ module tb_float_add;
 		    if (C != pos_zero_val && C!= neg_zero_val) 
 		      begin
 			 zero_sat_err ++ ;
-			 $fdisplay(of,"Troncature à zero  positif mal traité") ; 
+			 $display("--------------------------------------",i);
+			 $fdisplay(of,"Troncature à zero  positif mal traité") ;
+			 $display("%b + %b = %b --- %b",A,B,C,D);
 			 $display("C = %b",C, " pos_zero_val = %b ",pos_zero_val); 
 			 $display("C = %b",C, " neg_zero_val = %b ",neg_zero_val);
 			 $fdisplay(of,"%e %e %e %e s:%x m:%x e:%x",rA,rB,rC,rD,C.`SIGN,C.`MANT,C.`EXP) ;
-			 $stop;
+			 //$stop;
 		      end
 		 end
 
@@ -136,6 +143,8 @@ module tb_float_add;
 		 if (((rD >0) && (rC<0)) ||((rD<0) && (rC>0)))
 		   begin
 		      sign_out_err++ ;
+		      //$stop;
+		      
 		   end 
 
 
@@ -143,10 +152,11 @@ module tb_float_add;
 		   if ((C.`EXP != D.`EXP)) 
 		     begin
 			exp_out_err++ ;
+			$display("--------------------------------------",i);
 			$display("expo mauvais");
 			$fdisplay(of,"%e %e %e %e s:%x m:%x e:%x",rA,rB,rC,rD,C.`SIGN,C.`MANT,C.`EXP) ;
 			$display("%b + %b = %b --- %b",A,B,C,D);
-			$stop;
+			//$stop;
 		     end 
 		   else // Le cas normal : calcul de l'erreur max et de l'erreur moyenne
 		     begin

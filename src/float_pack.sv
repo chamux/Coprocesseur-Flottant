@@ -70,6 +70,41 @@ endfunction; // float
 //*********************************************************//
 
 function float float_mul(input float a, input float b);
+
+   logic [Ne:0] sum_exp;
+   logic [2*Nm+1:0] mult_test;
+   logic [5:0] 	    first_one;
+
+   first_one = 2*Nm + 2;
+   
+   float_mul.s=a.s^b.s;
+   sum_exp=a.e+b.e;
+   
+   if( sum_exp >= 2**Ne-1)
+     begin
+	float_mul.e = 2**Ne-2;
+	float_mul.m = 2**Nm-1;
+     end
+   else
+     begin
+	
+	mult_test = {1'b1,a.m}*{1'b1,b.m};
+	
+	
+	while(~mult_test[first_one - 1] && first_one > 0)
+	  first_one = first_one - 1;
+
+	if(sum_exp + first_one - (Nm + 1) < 2**Ne-1)
+	  begin
+	     float_mul.e = sum_exp + first_one + sum_exp - (Nm + 1);
+	     float_mul.m = mult_test>>(first_one - 2 - Nm);
+	  end   
+	else
+	  begin
+	     float_mul.e = 2**Ne-2;
+	     float_mul.m = 2**Nm-1;
+	  end
+     end
 endfunction; // float
 
 function float float_div(input float a, input float b);
@@ -77,54 +112,48 @@ endfunction; // float
 
 function float float_add_sub(input bit choice, input float a, input float b);   //choice : 0 ----> add      1 ----> sub
    logic unsigned [Ne-1:0] expo_min, expo_max;
-   logic unsigned [Nm:0]   sig_min, sig_max;
+   logic unsigned [2*Nm:0]   sig_min, sig_max; // if emax>>emin
    logic unsigned 	  b_sign, sign_min, sign_max;
    logic unsigned [Nm+1:0] sum_sig;
+   logic unsigned [2*Nm+1:0] sum_sig_aux;
+
+   logic unsigned [4:0] 	 first_one;
+   logic unsigned [Nm:0] 	 sub_sig;
    
    
    b_sign = choice ^ b.s;   //add or sub
 
-
    if(a.e<b.e || (a.e==b.e && a.m<b.m) )
      begin
-	$display("a min");
-	
 	expo_min=a.e;
 	expo_max=b.e;
-	sig_min={1'b1,a.m};
-	sig_max={1'b1,b.m};
+	sig_min={a.e!=0,a.m,{Nm{1'b0}}};
+	sig_max={b.e!=0,b.m,{Nm{1'b0}}};
 	sign_min=a.s;
 	sign_max=b_sign;
      end
    else 
      begin
-	$display("b min");
-	
 	expo_min=b.e;
 	expo_max=a.e;
-	sig_min={1'b1,b.m};
-	sig_max={1'b1,a.m};
+	sig_min={b.e!=0,b.m,{Nm{1'b0}}};
+	sig_max={a.e!=0,a.m,{Nm{1'b0}}};
 	sign_min=b_sign;
 	sign_max=a.s;
      end // else: !if(a.e<b.e || (a.e==b.e && a.m<b.m) )
-      
+   
    sig_min = sig_min >> (expo_max - expo_min);  // we compensate the significand
-
+   
    if(sign_max==sign_min)
      begin
-	$display("same sign");
-	
 	float_add_sub.s = sign_max;
+	sum_sig_aux=sig_max+sig_min;
+	sum_sig=sum_sig_aux[2*Nm+1:Nm];
 	
-	sum_sig=sign_max+sign_min;
 	if(sum_sig[Nm + 1])
 	  begin
-	     $display("shift sign");
-	     
-	     if(expo_min == 2**Ne - 2) //max reached
+	     if(expo_max == 2**Ne - 2) //max reached
 	       begin
-		  $display("max reached");
-		  
 		  float_add_sub.m = 2**Nm-1;
 		  float_add_sub.e=2**Ne-2;
 	       end
@@ -143,27 +172,26 @@ function float float_add_sub(input bit choice, input float a, input float b);   
      end
    else
      begin
-	if(sign_min==0)
+	first_one = Nm+1;
+	sub_sig = (sig_max - sig_min)>>Nm;
+
+	while(~sub_sig[first_one - 1] && first_one > 0)
+	  first_one = first_one - 1;
+
+	if(expo_max > (Nm - (first_one-1)) && first_one!=0)
 	  begin
-	     $display("neg");
-
-	     $display("%b %b %b %b",sig_max, expo_max, sig_min, expo_min);
-	     
-	     float_add_sub = sub_aux(sig_max, expo_max, sig_min, expo_min);
-
-	     
-
-	     
-	     float_add_sub.s = 1;
+	     float_add_sub.e = expo_max - (Nm - (first_one-1));
+	     float_add_sub.m = sub_sig << Nm - (first_one-1);
 	  end
 	else
 	  begin
-	     $display("pos");
-	     
-	     float_add_sub = sub_aux(sig_max, expo_max, sig_min, expo_min);
-	     float_add_sub.s = 0;
+	      float_add_sub.e = 0;
+	      float_add_sub.m = 0;
 	  end
-     end
+
+	float_add_sub.s=!sign_min;
+     end // else: !if(sign_max==sign_min)
+   
 endfunction; // float
 
 function float float_add(input float a, input float b);
@@ -173,45 +201,6 @@ endfunction; // float
 function float float_sub(input float a, input float b);
    float_sub = float_add_sub(1'b1, a, b);
 endfunction; // float
-
-
-function float sub_aux(
-    input logic unsigned [Nm:0] sa, 
-    input logic unsigned [Ne-1:0] ea,
-    input logic unsigned [Nm:0] 	 sb, 
-    input logic unsigned [Ne-1:0] eb);
-   
-   
-   logic unsigned [4:0] 		 first_one;
-   logic unsigned [Nm:0] 	 sub_sig;
-   
-
-   first_one = Nm+1;
-   sub_sig = sa - sb;
-
-   $display("%b",sub_sig);
-   
-   while(~sub_sig[first_one - 1] && first_one > 0)
-     first_one = first_one - 1;
-
-   $display(first_one);   
-
-   if(ea + (Nm - first_one) >0)
-     begin
-	sub_aux.e = ea - (Nm - first_one);
-	sub_aux.m = sub_sig << Nm - first_one;
-     end
-   else
-     begin
-	$display("min reached");
-	
-	sub_aux.e = 0;
-	sub_aux.m = 0;
-     end
-
-endfunction; // float
-
-
 
 endpackage // float_pack
 
