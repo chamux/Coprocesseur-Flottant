@@ -46,6 +46,7 @@ set_global_assignment -name VERILOG_FILE  ../../../src/wb_sram/wb_sram16.v
 set_global_assignment -name VERILOG_FILE ../../src/PLL/pll.v
 # AJOUTER ICI LES CHARGEMENTS DE FICHIERS NECESSAIRES
 set_global_assignment -name SYSTEMVERILOG_FILE ../../src/float_copro.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../src/float_pack.sv
 set_global_assignment -name VERILOG_FILE ../../src/DE2_TOP.v
          
 
