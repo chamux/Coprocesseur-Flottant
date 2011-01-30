@@ -165,6 +165,12 @@ module tb_float_add;
 			if(tmp < 0) tmp = -tmp ;
 			tmp = tmp*real'(2**$size(A.`MANT)) ;
 			poids_err = $clog2(int'(tmp)) ;
+// 			if(poids_err>5)
+// 			  begin
+// 			     $fdisplay(of,"%b + %b = %b --- %b",A,B,C,D);
+// 			     $fdisplay(of,"%e + %e = %e --- %e",rA,rB,rC,rD);
+// 			  end
+					  
 			tb_poids[poids_err] = tb_poids[poids_err]+1 ;
 		     end
 

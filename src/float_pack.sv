@@ -15,23 +15,28 @@ package float_pack;
 			   } float_ieee;
 
 
-/*****************************************************/
-/*                    TESTBENCH
- /*****************************************************/
-
+/***********************************************************
+ *                    TESTBENCH
+ ***********************************************************/
 
 function float_ieee real2float_ieee(input shortreal nb);
+   
    real2float_ieee=$shortrealtobits(nb);
    
 endfunction // float_ieee
 
+
 function shortreal float_ieee2real(input float_ieee nb);
+   
    float_ieee2real=$bitstoshortreal(nb);
    
-endfunction; // shortreal
+endfunction // shortreal
+
 
 function float float_ieee2float(input float_ieee nb);
+   
    float_ieee2float.s=nb.s;
+   
    if((nb.e+De-127)>2**Ne-2) // Max reached
      begin
 	float_ieee2float.e=2**Ne-2;
@@ -49,35 +54,37 @@ function float float_ieee2float(input float_ieee nb);
 	     float_ieee2float.e=nb.e+De-127;
 	     float_ieee2float.m=nb.m[22:23-Nm];
 	  end
-     end // else: !if(nb.e[22:Ne])
+     end
    
-endfunction; // float
+endfunction // float
 
 
 function float_ieee float2float_ieee(input float nb);
+   
    float2float_ieee.s=nb.s;
    float2float_ieee.e=nb.e-De+127;
    float2float_ieee.m=nb.m<<23-Nm;
 
-endfunction; // float_ieee
+endfunction // float_ieee
+
 
 function float real2float(input shortreal nb);
+   
    real2float=float_ieee2float(real2float_ieee(nb));
-endfunction; // float
+   
+endfunction // float
+
 
 function shortreal float2real(input float nb);
+   
    float2real=float_ieee2real(float2float_ieee(nb));
-endfunction; // float
+   
+endfunction // float
 
 
-
-
-
-
-
-/*****************************************************/
-/*                    MULT
- /*****************************************************/
+/***********************************************************
+ *                    MULT
+ ***********************************************************/
 
 function float float_mul(input float a, input float b);
 
@@ -86,11 +93,8 @@ function float float_mul(input float a, input float b);
    logic [5:0] 		 first_one;
 
    first_one = 2*Nm + 2;
-   
    float_mul.s=a.s^b.s;
-   
-   sum_exp=a.e + b.e - De;
-   
+   sum_exp=a.e + b.e - De;   
    mult_sig = {a.e!=0,a.m}*{b.e!=0,b.m};
    
    while(~mult_sig[first_one - 1] && first_one > 0)
@@ -115,39 +119,32 @@ function float float_mul(input float a, input float b);
 	     float_mul.e = 2**Ne-2;
 	     float_mul.m = 2**Nm-1;
 	  end
-     end // else: !if(sum_exp > 0 && sum_exp < (2**Ne-1) && first_one>0)
-endfunction; // float
+     end
+   
+endfunction // float
 
 
-
-
-
-
-/*****************************************************/
-/*                    DIVISION
- /*****************************************************/
+/**********************************************************
+ *                    DIVISION
+ **********************************************************/
 
 function float float_div(input float a, input float b);
    
-   logic signed [Ne+1:0] expo;
-   logic 		 unsigned [2*Nm+1:0]sig;
-   logic 		 unsigned [5:0]first_one;
+   logic signed   [Ne+1:0]   expo;
+   logic unsigned [2*Nm+1:0] sig;
+   logic unsigned [5:0]      first_one;
 
-   first_one = 2*Nm + 2;
-   
+   first_one = 2*Nm + 2;   
    float_div.s=a.s^b.s;
-
-   
+  
    if(b.e==0)//NAN      XXX
      begin
 	float_div.e=2**Ne-1;
-	float_div.m=0;
-	
+	float_div.m=0;	
      end
    else
      begin
 	expo=a.e - b.e+De;
-
 	sig = {a.e!=0,a.m,{Nm{1'b0}}}/{{Nm{1'b0}},b.e!=0,b.m};
 
 	while(~sig[first_one - 1] && first_one > 0)
@@ -177,27 +174,25 @@ function float float_div(input float a, input float b);
 	       end 
 	  end
      end
-endfunction; // float
+   
+endfunction // float
 
 
+/**********************************************************
+ *                    ADD_SUB
+ **********************************************************/
 
-
-
-
-/*****************************************************/
-/*                    ADD_SUB
- /*****************************************************/
-
-function float float_add_sub(input bit choice, input float a, input float b);   //choice : 0 ----> add      1 ----> sub
-   logic unsigned [Ne-1:0] expo_min, expo_max;
-   logic unsigned [2*Nm:0]   sig_min, sig_max; // if emax>>emin
-   logic unsigned 	  b_sign, sign_min, sign_max;
-   logic unsigned [Nm+1:0] sum_sig;
+//choice : 0 ----> add      1 ----> sub
+function float float_add_sub(input bit choice, input float a, input float b);
+  
+   logic unsigned [Ne-1:0]   expo_min, expo_max;
+   logic unsigned [2*Nm:0]   sig_min, sig_max;
+   logic unsigned 	     b_sign, sign_min, sign_max;
+   logic unsigned [Nm+1:0]   sum_sig;
    logic unsigned [2*Nm+1:0] sum_sig_aux;
 
-   logic unsigned [4:0] 	 first_one;
-   logic unsigned [Nm:0] 	 sub_sig;
-   
+   logic unsigned [5:0]      first_one;
+   logic unsigned [2*Nm:0]     sub_sig;
    
    b_sign = choice ^ b.s;   //add or sub
 
@@ -218,7 +213,7 @@ function float float_add_sub(input bit choice, input float a, input float b);   
 	sig_max={a.e!=0,a.m,{Nm{1'b0}}};
 	sign_min=b_sign;
 	sign_max=a.s;
-     end // else: !if(a.e<b.e || (a.e==b.e && a.m<b.m) )
+     end
    
    sig_min = sig_min >> (expo_max - expo_min);  // we compensate the significand
    
@@ -240,26 +235,28 @@ function float float_add_sub(input bit choice, input float a, input float b);   
 		  float_add_sub.e = expo_max + 1'b1;
 		  float_add_sub.m = sum_sig[Nm:1];
 	       end
-	  end // if (sum_sig[Nm + 1])
+	  end
 	else
 	  begin
 	     float_add_sub.e = expo_max;
 	     float_add_sub.m = sum_sig[Nm-1:0];
-	  end // else: !if(sum_sig[Nm + 1])
-	
+	  end	
      end
    else
      begin
-	first_one = Nm+1;
-	sub_sig = (sig_max - sig_min)>>Nm;
+	first_one = 2*Nm+1;
+	sub_sig = (sig_max - sig_min);
 
 	while(~sub_sig[first_one - 1] && first_one > 0)
 	  first_one = first_one - 1;
 
-	if(expo_max > (Nm - (first_one-1)) && first_one!=0)
+	if((expo_max > (2*Nm - (first_one-1))) && first_one!=0)
 	  begin
-	     float_add_sub.e = expo_max - (Nm - (first_one-1));
-	     float_add_sub.m = sub_sig << Nm - (first_one-1);
+	     float_add_sub.e = expo_max - (2*Nm - (first_one-1));
+	     if(first_one-1<Nm-1)
+	       float_add_sub.m = sub_sig << -(first_one-1-Nm);
+	     else
+	       float_add_sub.m = sub_sig >> (first_one-1-Nm);
 	  end
 	else
 	  begin
@@ -267,18 +264,23 @@ function float float_add_sub(input bit choice, input float a, input float b);   
 	     float_add_sub.m = 0;
 	  end
 
-	float_add_sub.s=!sign_min;
-     end // else: !if(sign_max==sign_min)
+	float_add_sub.s=sign_max;
+     end
    
-endfunction; // float
+endfunction // float
+
 
 function float float_add(input float a, input float b);
+   
    float_add = float_add_sub(1'b0, a, b);
-endfunction; // float
+   
+endfunction // float
 
 function float float_sub(input float a, input float b);
+   
    float_sub = float_add_sub(1'b1, a, b);
-endfunction; // float
+   
+endfunction // float
 
 endpackage // float_pack
 
