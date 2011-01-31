@@ -1,7 +1,7 @@
 package float_pack;
    
-   parameter [4:0] Nm = `TB_MANT_SIZE; // Nm [1,23]
-   parameter [3:0] Ne = `TB_EXP_SIZE;  // Ne [2,8]
+   parameter [4:0] Nm = 23; // Nm [1,23]
+   parameter [3:0] Ne = 8;  // Ne [2,8]
    parameter [6:0] De = 2**(Ne-1)-1;
 
    typedef struct packed { logic unsigned s;
@@ -19,7 +19,7 @@ package float_pack;
  *                    TESTBENCH
  ***********************************************************/
 
-function float_ieee real2float_ieee(input shortreal nb);
+/*function float_ieee real2float_ieee(input shortreal nb);
    
    real2float_ieee=$shortrealtobits(nb);
    
@@ -30,7 +30,7 @@ function shortreal float_ieee2real(input float_ieee nb);
    
    float_ieee2real=$bitstoshortreal(nb);
    
-endfunction // shortreal
+endfunction // shortreal*/
 
 
 function float float_ieee2float(input float_ieee nb);
@@ -68,7 +68,7 @@ function float_ieee float2float_ieee(input float nb);
 endfunction // float_ieee
 
 
-function float real2float(input shortreal nb);
+/*function float real2float(input shortreal nb);
    
    real2float=float_ieee2float(real2float_ieee(nb));
    
@@ -79,7 +79,7 @@ function shortreal float2real(input float nb);
    
    float2real=float_ieee2real(float2float_ieee(nb));
    
-endfunction // float
+endfunction // float*/
 
 
 /***********************************************************
