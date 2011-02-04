@@ -1,6 +1,0 @@
-`include "wb_sdr_ctrl.v"
-`include "wb_fifo_intf.v"
-`include "sdr_fifo_intf.v"
-`include "sdr_ctrl.v"
-`include "sdr_sig.v"
-`include "sdr_data.v"

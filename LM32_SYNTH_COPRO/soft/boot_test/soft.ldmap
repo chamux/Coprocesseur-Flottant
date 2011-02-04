@@ -1,0 +1,872 @@
+Archive member included because of file (symbol)
+
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+                              my_printf.o (__divsi3)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+                              my_printf.o (__modsi3)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o) (__udivmodsi4)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+                              my_printf.o (outbyte)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o (_init_hw)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o (_handle_scall)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o) (inbyte)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o (atexit)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o (exit)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o (memcpy)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o (memset)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o (raise)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o) (_kill_r)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o) (__register_exitproc)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o) (__call_exitprocs)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o) (_malloc_r)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o) (errno)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o) (_free_r)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o) (_exit)
+/comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o) (_getpid)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+bram             0x00000000         0x00004000         xr
+sram             0x00100000         0x00080000         !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD my_printf.o
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crti.o
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtn.o
+START GROUP
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a
+LOAD /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a
+END GROUP
+                0xf0000000                _uart = 0xf0000000
+
+.boot           0x00000000      0x2f4
+ *(.boot)
+ .boot          0x00000000      0x2f4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+                0x00000000                _start
+
+.text           0x000002f4     0x1eb8
+                0x000002f4                . = ALIGN (0x4)
+                0x000002f4                _ftext = .
+                0x000002f4                _ftext_rom = LOADADDR (.text)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000002f4       0x74 main.o
+                0x000002f4                main
+ .text          0x00000368      0x308 my_printf.o
+                0x00000368                my_printf
+ .text          0x00000670       0xb4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+                0x00000670                __divsi3
+ .text          0x00000724       0x80 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+                0x00000724                __modsi3
+ .text          0x000007a4       0x70 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+                0x000007a4                __udivmodsi4
+ .text          0x00000814        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crti.o
+ .text          0x00000814       0xf4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+ .text          0x00000908        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+ .text          0x00000908        0x8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+                0x00000908                no_os_exit
+ .text          0x00000910       0x68 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+ .text          0x00000978        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtn.o
+ .text          0x00000978       0x24 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+                0x00000978                outbyte
+ .text          0x0000099c        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+                0x0000099c                _init_hw
+ .text          0x000009a0      0x120 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+                0x000009a0                _handle_scall
+ .text          0x00000ac0       0x24 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+                0x00000ac0                inbyte
+ .text          0x00000ae4       0x28 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+                0x00000ae4                atexit
+ .text          0x00000b0c       0x3c /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+                0x00000b0c                exit
+ .text          0x00000b48        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ .text          0x00000b48       0xf8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+                0x00000b48                memcpy
+ .text          0x00000c40      0x104 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+                0x00000c40                memset
+ .text          0x00000d44      0x308 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+                0x00000d44                _init_signal_r
+                0x00000da8                _signal_r
+                0x00000e3c                _raise_r
+                0x00000f0c                __sigtramp_r
+                0x00000fa8                raise
+                0x00000fd0                signal
+                0x00001000                _init_signal
+                0x00001024                __sigtramp
+ .text          0x0000104c       0x80 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+                0x0000104c                _kill_r
+                0x000010b4                _getpid_r
+ .text          0x000010cc       0xa4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+                0x000010cc                __register_exitproc
+ .text          0x00001170      0x118 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+                0x00001170                __call_exitprocs
+ .text          0x00001288      0x748 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                0x00001288                _malloc_r
+ .text          0x000019d0        0x8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+                0x000019d0                __malloc_lock
+                0x000019d4                __malloc_unlock
+ .text          0x000019d8      0x208 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+                0x000019d8                cleanup_glue
+                0x00001a20                _reclaim_reent
+                0x00001b48                _wrapup_reent
+ .text          0x00001be0       0x64 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+                0x00001be0                _sbrk_r
+ .text          0x00001c44      0x3d8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+                0x00001c44                _malloc_trim_r
+                0x00001d80                _free_r
+ .text          0x0000201c       0xe0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+                0x0000201c                _write
+                0x00002034                _read
+                0x0000204c                _open
+                0x00002064                _close
+                0x0000207c                _lseek
+                0x00002094                _fstat
+                0x000020ac                _stat
+                0x000020c4                _link
+                0x000020dc                _unlink
+                0x000020f4                _exit
+ .text          0x000020fc       0x68 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+                0x000020fc                _getpid
+                0x00002114                _kill
+                0x0000212c                _sbrk
+ *(.gnu.warning)
+ *(.init)
+ .init          0x00002164        0x8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crti.o
+                0x00002164                _init
+ .init          0x0000216c        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+ .init          0x00002170        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+ .init          0x00002174        0xc /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtn.o
+ *(.fini)
+ .fini          0x00002180        0x8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crti.o
+                0x00002180                _fini
+ .fini          0x00002188        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+ .fini          0x0000218c        0xc /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtn.o
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.gcc_except_table)
+ *crtbegin*.o(.ctors)
+ .ctors         0x00002198        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000219c        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+ *crtbegin*.o(.dtors)
+ .dtors         0x000021a0        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000021a4        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+                0x000021a4                __DTOR_END__
+ *(.jcr)
+ .jcr           0x000021a8        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+ .jcr           0x000021a8        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+                0x000021ac                _etext = .
+
+.rodata         0x000021ac      0x27c
+                0x000021ac                . = ALIGN (0x4)
+                0x000021ac                _frodata = .
+                0x000021ac                _frodata_rom = LOADADDR (.rodata)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x000021ac        0x8 main.o
+ .rodata.str1.4
+                0x000021b4        0x7 my_printf.o
+                                  0x8 (size before relaxing)
+ *fill*         0x000021bb        0x1 00
+ .rodata        0x000021bc      0x164 my_printf.o
+ .rodata        0x00002320      0x100 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .rodata        0x00002420        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+                0x00002420                _global_impure_ptr
+ .rodata.str1.4
+                0x00002424        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ *(.rodata1)
+                0x00002428                _erodata = .
+
+.data           0x00100000      0x848 load address 0x00002428
+                0x00100000                . = ALIGN (0x4)
+                0x00100000                _fdata = .
+                0x00002428                _fdata_rom = LOADADDR (.data)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00100000        0x0 main.o
+ .data          0x00100000        0x0 my_printf.o
+ .data          0x00100000        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .data          0x00100000        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .data          0x00100000        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .data          0x00100000        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crti.o
+ .data          0x00100000        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+                0x00100000                __dso_handle
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtn.o
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .data          0x00100004        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ *fill*         0x00100004        0x4 00
+ .data          0x00100008      0x430 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+                0x00100008                _impure_ptr
+ .data          0x00100438        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .data          0x00100438        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .data          0x00100438        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .data          0x00100438        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .data          0x00100438        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .data          0x00100438        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .data          0x00100438      0x410 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                0x00100438                __malloc_av_
+                0x00100840                __malloc_trim_threshold
+                0x00100844                __malloc_sbrk_base
+ .data          0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .data          0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .data          0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .data          0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .data          0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+ .data          0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+ *(.data1)
+                0x00108840                _gp = (ALIGN (0x10) + 0x7ff0)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+                0x00100848                _edata = .
+
+.bss            0x00100848       0x44 load address 0x00002c70
+                0x00100848                . = ALIGN (0x4)
+                0x00100848                _fbss = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00100848        0x0 main.o
+ .bss           0x00100848        0x0 my_printf.o
+ .bss           0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .bss           0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .bss           0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .bss           0x00100848        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crti.o
+ .bss           0x00100848        0x8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtn.o
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .bss           0x00100850        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .bss           0x00100850       0x34 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                0x00100850                __malloc_top_pad
+                0x00100854                __malloc_max_sbrked_mem
+                0x00100858                __malloc_max_total_mem
+                0x0010085c                __malloc_current_mallinfo
+ .bss           0x00100884        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .bss           0x00100884        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .bss           0x00100884        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .bss           0x00100884        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .bss           0x00100884        0x0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+ .bss           0x00100884        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+ *(COMMON)
+ COMMON         0x00100888        0x4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+                0x00100888                errno
+                0x0010088c                . = ALIGN (0x4)
+                0x0010088c                _ebss = .
+                0x0010088c                _end = .
+                0x0010088c                PROVIDE (end, .)
+                0x0017fffc                PROVIDE (_fstack, 0x17fffc)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 main.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 my_printf.o
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .comment       0x00000000       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x300
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 main.o
+ .debug_aranges
+                0x00000020       0x20 my_printf.o
+ .debug_aranges
+                0x00000040       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x00000060       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .debug_aranges
+                0x00000080       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .debug_aranges
+                0x000000a0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .debug_aranges
+                0x000000c0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .debug_aranges
+                0x000000e0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .debug_aranges
+                0x00000100       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_aranges
+                0x00000120       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .debug_aranges
+                0x00000140       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000160       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000180       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x000001a0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x000001c0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .debug_aranges
+                0x000001e0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .debug_aranges
+                0x00000200       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x00000220       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000240       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .debug_aranges
+                0x00000260       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .debug_aranges
+                0x00000280       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .debug_aranges
+                0x000002a0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x000002c0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .debug_aranges
+                0x000002e0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug_pubnames
+                0x00000000      0x4c2
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b main.o
+ .debug_pubnames
+                0x0000001b       0x20 my_printf.o
+ .debug_pubnames
+                0x0000003b       0x1f /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .debug_pubnames
+                0x0000005a       0x1f /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .debug_pubnames
+                0x00000079       0x23 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .debug_pubnames
+                0x0000009c       0x21 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .debug_pubnames
+                0x000000bd       0x1e /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .debug_pubnames
+                0x000000db       0x1f /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .debug_pubnames
+                0x000000fa       0x24 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_pubnames
+                0x0000011e       0x1d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .debug_pubnames
+                0x0000013b       0x1d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .debug_pubnames
+                0x00000158       0x1b /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .debug_pubnames
+                0x00000173       0x39 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ .debug_pubnames
+                0x000001ac       0x1d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .debug_pubnames
+                0x000001c9       0x1d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .debug_pubnames
+                0x000001e6       0x86 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .debug_pubnames
+                0x0000026c       0x2c /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .debug_pubnames
+                0x00000298       0x2a /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .debug_pubnames
+                0x000002c2       0x27 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_pubnames
+                0x000002e9       0xce /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .debug_pubnames
+                0x000003b7       0x38 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .debug_pubnames
+                0x000003ef       0x52 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .debug_pubnames
+                0x00000441       0x1e /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .debug_pubnames
+                0x0000045f       0x31 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .debug_pubnames
+                0x00000490       0x32 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug_info     0x00000000     0x7ee8
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xa9 main.o
+ .debug_info    0x000000a9      0x15b my_printf.o
+ .debug_info    0x00000204      0x10c /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .debug_info    0x00000310       0xc5 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .debug_info    0x000003d5       0xa4 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .debug_info    0x00000479       0x35 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .debug_info    0x000004ae       0x70 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .debug_info    0x0000051e       0x36 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .debug_info    0x00000554      0x1e6 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_info    0x0000073a       0x62 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .debug_info    0x0000079c       0xc0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .debug_info    0x0000085c      0x972 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .debug_info    0x000011ce      0x965 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ .debug_info    0x00001b33      0x13d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .debug_info    0x00001c70      0x112 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .debug_info    0x00001d82      0xb1d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .debug_info    0x0000289f      0x9ef /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .debug_info    0x0000328e      0x9e9 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .debug_info    0x00003c77      0x9f6 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000466d      0xd69 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .debug_info    0x000053d6      0x97f /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .debug_info    0x00005d55      0xa60 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .debug_info    0x000067b5      0x9aa /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .debug_info    0x0000715f      0xc3d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .debug_info    0x00007d9c      0x14c /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug_abbrev   0x00000000     0x1b11
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x77 main.o
+ .debug_abbrev  0x00000077       0xe4 my_printf.o
+ .debug_abbrev  0x0000015b       0xa6 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x00000201       0x80 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .debug_abbrev  0x00000281       0x79 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .debug_abbrev  0x000002fa       0x25 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .debug_abbrev  0x0000031f       0x54 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .debug_abbrev  0x00000373       0x27 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .debug_abbrev  0x0000039a      0x111 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_abbrev  0x000004ab       0x45 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .debug_abbrev  0x000004f0       0x7f /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000056f      0x184 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .debug_abbrev  0x000006f3      0x16d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000860       0xa0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00000900       0xa3 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .debug_abbrev  0x000009a3      0x1c8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .debug_abbrev  0x00000b6b      0x1b8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .debug_abbrev  0x00000d23      0x1e9 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x00000f0c      0x1d0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x000010dc      0x23a /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .debug_abbrev  0x00001316      0x180 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .debug_abbrev  0x00001496      0x1ed /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .debug_abbrev  0x00001683      0x1b7 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x0000183a      0x1f1 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .debug_abbrev  0x00001a2b       0xe6 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug_line     0x00000000     0x36a5
+ *(.debug_line)
+ .debug_line    0x00000000       0x7b main.o
+ .debug_line    0x0000007b      0x3de my_printf.o
+ .debug_line    0x00000459      0x177 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .debug_line    0x000005d0      0x165 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .debug_line    0x00000735      0x141 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .debug_line    0x00000876       0xa3 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .debug_line    0x00000919       0xc2 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .debug_line    0x000009db       0xa0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .debug_line    0x00000a7b      0x1ac /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_line    0x00000c27       0xc1 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .debug_line    0x00000ce8      0x103 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .debug_line    0x00000deb      0x1ea /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .debug_line    0x00000fd5      0x15c /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ .debug_line    0x00001131      0x299 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .debug_line    0x000013ca      0x297 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .debug_line    0x00001661      0x4a0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .debug_line    0x00001b01      0x223 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .debug_line    0x00001d24      0x24d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .debug_line    0x00001f71      0x24e /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x000021bf      0x878 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .debug_line    0x00002a37      0x17c /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .debug_line    0x00002bb3      0x2ef /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .debug_line    0x00002ea2      0x209 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .debug_line    0x000030ab      0x4fe /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .debug_line    0x000035a9       0xfc /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug_frame    0x00000000      0x3e0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 main.o
+ .debug_frame   0x00000020       0x20 my_printf.o
+ .debug_frame   0x00000040       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .debug_frame   0x00000060       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .debug_frame   0x00000080       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .debug_frame   0x000000a0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+ .debug_frame   0x000000c0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+ .debug_frame   0x000000e0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+ .debug_frame   0x00000100       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_frame   0x00000120       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+ .debug_frame   0x00000140       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000160       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .debug_frame   0x00000180       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x000001a0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .debug_frame   0x000001c0       0x90 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .debug_frame   0x00000250       0x30 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .debug_frame   0x00000280       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x000002a0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000002c0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000002e0       0x30 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000310       0x40 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .debug_frame   0x00000350       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000370       0x30 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .debug_frame   0x000003a0       0x40 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug_str      0x00000000     0x1054
+ *(.debug_str)
+ .debug_str     0x00000000       0x98 main.o
+                                 0x9d (size before relaxing)
+ .debug_str     0x00000098       0xf5 my_printf.o
+                                0x14d (size before relaxing)
+ .debug_str     0x0000018d       0x76 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+                                 0xa4 (size before relaxing)
+ .debug_str     0x00000203       0x57 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+                                 0x85 (size before relaxing)
+ .debug_str     0x0000025a       0x69 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+                                 0x98 (size before relaxing)
+ .debug_str     0x000002c3       0x5a /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+                                 0x66 (size before relaxing)
+ .debug_str     0x0000031d       0x5a /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+                                 0x7d (size before relaxing)
+ .debug_str     0x00000377       0x55 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+                                 0x61 (size before relaxing)
+ .debug_str     0x000003cc       0x82 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+                                0x12a (size before relaxing)
+ .debug_str     0x0000044e       0x4b /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+                                 0x76 (size before relaxing)
+ .debug_str     0x00000499       0x80 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+                                0x11c (size before relaxing)
+ .debug_str     0x00000519      0x3ce /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+                                0x4af (size before relaxing)
+ .debug_str     0x000008e7       0x5b /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+                                0x4be (size before relaxing)
+ .debug_str     0x00000942       0x85 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+                                0x11a (size before relaxing)
+ .debug_str     0x000009c7       0x6b /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+                                0x107 (size before relaxing)
+ .debug_str     0x00000a32       0xaa /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+                                0x510 (size before relaxing)
+ .debug_str     0x00000adc       0x70 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+                                0x4ba (size before relaxing)
+ .debug_str     0x00000b4c       0x66 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+                                0x4fc (size before relaxing)
+ .debug_str     0x00000bb2       0x76 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+                                0x4d7 (size before relaxing)
+ .debug_str     0x00000c28      0x21d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                                0x694 (size before relaxing)
+ .debug_str     0x00000e45       0x82 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+                                0x4c6 (size before relaxing)
+ .debug_str     0x00000ec7       0x88 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+                                0x4e3 (size before relaxing)
+ .debug_str     0x00000f4f       0x6b /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+                                0x4b5 (size before relaxing)
+ .debug_str     0x00000fba       0x3c /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+                                0x5e6 (size before relaxing)
+ .debug_str     0x00000ff6       0x5e /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+                                0x11b (size before relaxing)
+
+.debug_loc      0x00000000     0x1f8c
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x26 main.o
+ .debug_loc     0x00000026      0x2e7 my_printf.o
+ .debug_loc     0x0000030d      0x160 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .debug_loc     0x0000046d      0x121 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .debug_loc     0x0000058e       0xcd /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .debug_loc     0x0000065b       0xe5 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_loc     0x00000740       0x1e /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .debug_loc     0x0000075e       0x1e /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .debug_loc     0x0000077c      0x1bd /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000939      0x1ca /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .debug_loc     0x00000b03      0x23e /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .debug_loc     0x00000d41       0x6d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .debug_loc     0x00000dae       0x96 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .debug_loc     0x00000e44      0x147 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x00000f8b      0x975 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .debug_loc     0x00001900      0x1ab /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .debug_loc     0x00001aab       0x3c /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .debug_loc     0x00001ae7      0x43f /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .debug_loc     0x00001f26       0x66 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(soft.elf elf32-lm32)
+
+.debug_pubtypes
+                0x00000000      0xb5c
+ .debug_pubtypes
+                0x00000000       0x31 my_printf.o
+ .debug_pubtypes
+                0x00000031       0x35 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+ .debug_pubtypes
+                0x00000066       0x1d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+ .debug_pubtypes
+                0x00000083       0x1e /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+ .debug_pubtypes
+                0x000000a1       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_pubtypes
+                0x000000b3       0x25 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+ .debug_pubtypes
+                0x000000d8       0xdd /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+ .debug_pubtypes
+                0x000001b5       0xdd /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+ .debug_pubtypes
+                0x00000292       0x1d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+ .debug_pubtypes
+                0x000002af       0x1d /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+ .debug_pubtypes
+                0x000002cc       0xef /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+ .debug_pubtypes
+                0x000003bb       0xdd /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+ .debug_pubtypes
+                0x00000498       0xf0 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+ .debug_pubtypes
+                0x00000588       0xdd /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_pubtypes
+                0x00000665      0x120 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+ .debug_pubtypes
+                0x00000785       0xdd /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+ .debug_pubtypes
+                0x00000862       0xdd /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+ .debug_pubtypes
+                0x0000093f       0xeb /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+ .debug_pubtypes
+                0x00000a2a      0x120 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+ .debug_pubtypes
+                0x00000b4a       0x12 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+
+.debug_ranges   0x00000000      0x130
+ .debug_ranges  0x00000000       0x18 my_printf.o
+ .debug_ranges  0x00000018       0xa8 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+ .debug_ranges  0x000000c0       0x20 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x000000e0       0x50 /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+
+Cross Reference Table
+
+Symbol                                            File
+IRQ_handler                                       /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_Jv_RegisterClasses                               /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+__DTOR_END__                                      /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtend.o
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+__call_exitprocs                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+__divsi3                                          /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+                                                  my_printf.o
+__dso_handle                                      /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crtbegin.o
+__malloc_av_                                      /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+__malloc_current_mallinfo                         /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+__malloc_lock                                     /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+__malloc_max_sbrked_mem                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+__malloc_max_total_mem                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+__malloc_sbrk_base                                /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+__malloc_top_pad                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+__malloc_trim_threshold                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+__malloc_unlock                                   /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mlock.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+__modsi3                                          /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+                                                  my_printf.o
+__register_exitproc                               /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+__sigtramp                                        /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+__sigtramp_r                                      /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+__udivmodsi4                                      /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_udivmodsi4.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_modsi3.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/libgcc.a(_divsi3.o)
+_close                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+_ebss                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_edata                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_erodata                                          /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_etext                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_exit                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+_fbss                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_fdata                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_fdata_rom                                        /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_fini                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crti.o
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_free_r                                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+_frodata                                          /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_frodata_rom                                      /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_fstack                                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_fstat                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+_ftext                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_ftext_rom                                        /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_getpid                                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+_getpid_r                                         /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+_global_impure_ptr                                /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__call_atexit.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-__atexit.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+_gp                                               /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_handle_scall                                     /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_impure_ptr                                       /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-impure.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+_init                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/with-multiplier/with-shifter/crti.o
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_init_hw                                          /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(init_hw.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_init_signal                                      /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+_init_signal_r                                    /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+_kill                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+_kill_r                                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+_link                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+_lseek                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+_malloc_r                                         /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+_malloc_trim_r                                    /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+_open                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+_raise_r                                          /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+_read                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+_reclaim_reent                                    /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+_sbrk                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+_sbrk_r                                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-freer.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-mallocr.o)
+_signal_r                                         /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+_start                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+_stat                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+_uart                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+_unlink                                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+_wrapup_reent                                     /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+_write                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+atexit                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-atexit.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+cleanup_glue                                      /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+end                                               /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+errno                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(nosysnowarn.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libgloss.a(scall.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-sbrkr.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-reent.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signalr.o)
+exit                                              /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-exit.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+inbyte                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(inbyte.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+main                                              main.o
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+memcpy                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memcpy.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+memset                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-memset.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+my_printf                                         my_printf.o
+no_os_exit                                        /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/no_os_exit.o
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+outbyte                                           /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(outbyte.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libno_os.a(no_os.o)
+                                                  my_printf.o
+raise                                             /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)
+                                                  /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/crt0bootloader.o
+signal                                            /comelec/softs/opt/gnu_tools_for_lm32/bin/../lib/gcc/lm32-elf/4.5.0/../../../../lm32-elf/lib/with-multiplier/with-shifter/libc.a(lib_a-signal.o)

@@ -1,0 +1,24 @@
+// main loop
+int main(int argc, char **argv)
+{
+	float x = 1.2;
+	float y = 2.3;
+	float resultat;
+//	my_printf("B\n");
+  asm volatile("user %[dest],%[src1],%[src2],0x00":[dest] "=r" (resultat)
+		:[src1] "r" (x),
+		[src2] "r" (y)) ;
+  asm volatile("user %[dest],%[src1],%[src2],0x01":[dest] "=r" (resultat)
+		:[src1] "r" (x),
+		[src2] "r" (y)) ;
+  asm volatile("user %[dest],%[src1],%[src2],0x02":[dest] "=r" (resultat)
+		:[src1] "r" (x),
+		[src2] "r" (y)) ;
+  asm volatile("user %[dest],%[src1],%[src2],0x03":[dest] "=r" (resultat)
+		:[src1] "r" (x),
+		[src2] "r" (y)) ;
+//  my_printf("%f\n",resultat);
+
+
+}
+
