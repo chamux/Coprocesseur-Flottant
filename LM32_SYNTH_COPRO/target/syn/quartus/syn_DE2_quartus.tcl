@@ -4,21 +4,23 @@ package require ::quartus::project
 package require ::quartus::flow
 
 set TOP_DIR  $env(TOPDIR)
+set make_assignment   0
 
 # Only open if not already open
 if {[project_exists DE2_TOP]} {
 	project_open -revision DE2_TOP DE2_TOP
 } else {
 	project_new -revision DE2_TOP DE2_TOP
+	set make_assignment   1
 }
 
+if {$make_assignment} {
 ## Top level files files
 	set_global_assignment -name VERILOG_FILE ../../src/PLL/pll.v
 	set_global_assignment -name VERILOG_FILE ../../src/DE2_TOP.v
 ## copro
-    set_global_assignment -name SYSTEMVERILOG_FILE  $TOP_DIR/copro_src/float_copro.sv 
 	 set_global_assignment -name SYSTEMVERILOG_FILE  $TOP_DIR/copro_src/float_pack.sv 
-
+    set_global_assignment -name SYSTEMVERILOG_FILE  $TOP_DIR/copro_src/float_copro.sv 
 ## LM32 system files
     set_global_assignment -name SEARCH_PATH $TOP_DIR/src/wb_conbus
     set_global_assignment -name SEARCH_PATH $TOP_DIR/src/lm32_top
@@ -395,6 +397,7 @@ if {[project_exists DE2_TOP]} {
 	set_location_assignment PIN_B7 -to VGA_SYNC
 	set_location_assignment PIN_A6 -to I2C_SCLK
 	set_location_assignment PIN_B6 -to I2C_SDAT
+    set_location_assignment PIN_J9 -to TD_DATA[0]
 	set_location_assignment PIN_E8 -to TD_DATA[1]
 	set_location_assignment PIN_H8 -to TD_DATA[2]
 	set_location_assignment PIN_H10 -to TD_DATA[3]
@@ -518,15 +521,15 @@ if {[project_exists DE2_TOP]} {
 # ------------------
 # Timing Assignments
 # ==================
-set_global_assignment -name DUTY_CYCLE 50 -section_id A50MHZ
-set_global_assignment -name FMAX_REQUIREMENT "50.0 MHz" -section_id A50MHZ
-set_global_assignment -name INCLUDE_EXTERNAL_PIN_DELAYS_IN_FMAX_CALCULATIONS OFF -section_id A50MHZ
+set_global_assignment -name NUMBER_OF_PATHS_TO_REPORT 0
+set_global_assignment -name NUMBER_OF_DESTINATION_TO_REPORT 0
+set_global_assignment -name NUMBER_OF_SOURCES_PER_DESTINATION_TO_REPORT 0
 
-set_instance_assignment -name CLOCK_SETTINGS A50MHZ -to CLOCK_50
+set_global_assignment -name SDC_FILE constraints_clock.sdc
 
 	# Commit assignments
 	export_assignments
-
+}
 	#run quartus flow
 	execute_flow -compile
 

@@ -26,7 +26,6 @@ LDFLAGS = -Tbootloader.ld -Wl,--print-map -Wl,--cref $(SPECFLAGS)
 all: copy
 
 copy: $(SOFT_VM)
-	cp $< ../../target/syn/quartus 
 	cp $< ../../simulation
 
 %.vm: %.srec

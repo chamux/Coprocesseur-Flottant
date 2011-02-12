@@ -14,7 +14,7 @@ RAM_IMAGE  = soft.ram
 OBJS       = pi_float.o 
 
 SPECFLAGS  =   -gstabs+ -mmultiply-enabled -mbarrel-shift-enabled -muser-enabled
-CFLAGS     =  -Wall -g -O0 -I. -ggdb -I$(LIB)/include $(SPECFLAGS)
+CFLAGS     =  -Wall -enable-float -g -O0 -I. -ggdb -I$(LIB)/include $(SPECFLAGS)
 
 LD_SCRIPT = sram.ld
 LDFLAGS   = $(SPECFLAGS) -L$(LIB) -nostartfiles -T$(LD_SCRIPT) -Wl,--print-map -Wl--cref 
@@ -45,5 +45,5 @@ $(SOFT_IMAGE): $(OBJS)
 	$(CC) -o $@ $(CFLAGS) -c $<
 
 clean :
-	rm -f $(RAM_IMAGE) $(BIN_IMAGE) $(SOFT_IMAGE) $(OBJS) *.ldmap
+	rm -f $(RAM_IMAGE) $(BIN_IMAGE) $(SOFT_IMAGE) $(OBJS) *.ldmap *~
 

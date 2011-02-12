@@ -33,10 +33,20 @@ static inline float fmult(float x, float y)
   return  resultat ;
 }
 
+static inline float fsub(float x, float y)
+{
+  float resultat;
+  asm volatile("user %[dest],%[src1],%[src2],0x01":[dest] "=r" (resultat)
+		:[src1] "r" (x),
+		[src2] "r" (y)) ;
+
+  return  resultat ;
+}
+
 static inline float fadd(float x, float y)
 {
   float resultat;
-  asm volatile("user %[dest],%[src1],%[src2],0x0":[dest] "=r" (resultat)
+  asm volatile("user %[dest],%[src1],%[src2],0x00":[dest] "=r" (resultat)
 		:[src1] "r" (x),
 		[src2] "r" (y)) ;
 
@@ -96,8 +106,8 @@ float dev_lim_atn_ref ( float x , int n ) {
 
 int main()
 {
-  float x = 1.2;
-  float y = 2.3;
+  float x = 1.2562356;
+  float y = 2.3235321;
   float resultat;
   //unsigned int t0, t1;
   //float pi ;
@@ -119,11 +129,23 @@ int main()
 	 printf("Duration 1    %f ms\n\r", (t1-t0)/1000./FREQ);
 	 printf("Iterations :%10d Pi : %10.9f\n",i,pi) ;
   }*/
-  asm volatile("user %[dest],%[src1],%[src2],0x0":[dest] "=r" (resultat)
+  asm volatile("user %[dest],%[src1],%[src2],0x03":[dest] "=r" (resultat)
 		:[src1] "r" (x),
 		[src2] "r" (y)) ;
 
-  printf("%f",resultat);
+  printf("resultat : %e\n",resultat);
+  printf("-------------------\n");
+  printf("x = %e ------------\n",x);
+  printf("y = %e ------------\n",y);
+  printf("resultat x/y        function : %e\n",fdiv(x, y));
+  printf("ref                          : %e\n",(float)(x/y));
+  printf("resultat y/x        function : %e\n",fdiv(y, x));
+  printf("ref                          : %e\n",(float)(y/x));
+  printf("resultat x*y        function : %e\n",fmult(x, y));
+  printf("ref                          : %e\n",(float)(y*x));
+  printf("resultat x+y        function : %e\n",fadd(x, y));
+  printf("ref                          : %e\n",(float)(y+x));
+
 
   return 0;
 }

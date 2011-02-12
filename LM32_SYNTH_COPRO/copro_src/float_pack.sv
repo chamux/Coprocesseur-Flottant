@@ -19,7 +19,7 @@ package float_pack;
  *                    TESTBENCH
  ***********************************************************/
 
-// translate off
+// synthesis translate off
 function float_ieee real2float_ieee(input shortreal nb);
    
    real2float_ieee=$shortrealtobits(nb);
@@ -33,7 +33,7 @@ function shortreal float_ieee2real(input float_ieee nb);
    
 endfunction // shortreal
 
-// translate on
+// synthesis translate on
 
 
 function float float_ieee2float(input float_ieee nb);
@@ -71,7 +71,8 @@ function float_ieee float2float_ieee(input float nb);
 endfunction // float_ieee
 
 
-// translate off
+// synthesis translate off
+
 function float real2float(input shortreal nb);
    
    real2float=float_ieee2float(real2float_ieee(nb));
@@ -84,7 +85,8 @@ function shortreal float2real(input float nb);
    float2real=float_ieee2real(float2float_ieee(nb));
    
 endfunction // float
-// translate on
+
+// synthesis translate on
 
 
 /***********************************************************
@@ -149,7 +151,7 @@ function float float_div(input float a, input float b);
      end
    else
      begin
-	expo=a.e - b.e+De;
+	expo =  signed'({1'b0,a.e}) - signed'({1'b0,b.e}) + De;
 	sig = {a.e!=0,a.m,{Nm{1'b0}}}/{{Nm{1'b0}},b.e!=0,b.m};
 
 	while(~sig[first_one - 1] && first_one > 0)
