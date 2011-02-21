@@ -1,29 +1,27 @@
 import float_pack::*;
 
 module float_copro(
-    input logic clk,
-    input logic copro_valid,
-    input logic [10:0] copro_opcode,
-    input logic [31:0] copro_op0,
-    input logic [31:0] copro_op1,
-    output logic       copro_complete, 
-    output logic [31:0] copro_result) ;
+		   input logic clk,
+		   input logic copro_valid,
+		   input logic [10:0] copro_opcode,
+		   input logic [31:0] copro_op0,
+		   input logic [31:0] copro_op1,
+		   output logic       copro_complete, 
+		   output logic [31:0] copro_result) ;
 
    float 	copro_reg_op0,copro_reg_op1;
-   logic [31:0] 	res_as, res_m, copro_res_div;
-   logic 		choice;
+   logic [31:0] 		       res_as, res_m, copro_res_div;
+   logic 			       choice;
    
-   logic [7:0] 		count;
-
-
+   logic [7:0] 			       count;
    
-   enum 		logic [1:0] {data_in,processing,complete,waiting} state;
+   enum 			       logic [1:0] {data_in,processing,complete,waiting} state;
 
    // synthesis translate off  
    
-   shortreal 		f_copro_op0;
-   shortreal 		f_copro_op1;
-   shortreal 		f_copro_result;
+   shortreal 			       f_copro_op0;
+   shortreal 			       f_copro_op1;
+   shortreal 			       f_copro_result;
    always @(*)
      begin
 	f_copro_op0      = $bitstoshortreal( copro_op0 );
@@ -40,7 +38,7 @@ module float_copro(
     */   
    
    always_ff @(posedge clk)
-   begin
+     begin
 	if(copro_valid)
 	  begin
 
@@ -52,15 +50,15 @@ module float_copro(
 
 		    case(copro_opcode[1:0])
 		      2'b00 : begin
-			 count<= 5;
+			 count<= 3;
 			 choice<=0;
 		      end
 		      2'b01 : begin
-			 count<= 5;
+			 count<= 3;
 			 choice<=1;
 		      end
-		      2'b10 : count<= 4;
-		      2'b11 : count<= 40;
+		      2'b10 : count<= 2;
+		      2'b11 : count<= 20;
 		    endcase
 
 		    state<=processing;
@@ -79,11 +77,11 @@ module float_copro(
 			 state<=complete;
 		      end
 		 end
-		complete:begin
-			 copro_result <=(!copro_opcode[1])?res_as:(copro_opcode[0]?copro_res_div:res_m);
-			 copro_complete<=1;
-			 state<=waiting;
-			 end
+	       complete:begin
+		  copro_result <=(!copro_opcode[1])?res_as:(copro_opcode[0]?copro_res_div:res_m);
+		  copro_complete<=1;
+		  state<=waiting;
+	       end
 	     endcase
 	     
 	  end // if (copro_valid)
